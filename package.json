@@ -1,0 +1,23 @@
+{
+  "name": "tightrelay",
+  "version": "0.1.0",
+  "description": "Yet another relay proxy exposing a SOCKS5 interface",
+  "main": "relay.js",
+  "scripts": {
+    "test": "node relay.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NunotabaS/tightrelay.git"
+  },
+  "keywords": [
+    "proxy",
+    "SOCKS5"
+  ],
+  "author": "Nunotaba Shinobu <knh_ch_mainland@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NunotabaS/tightrelay/issues"
+  },
+  "homepage": "https://github.com/NunotabaS/tightrelay"
+}

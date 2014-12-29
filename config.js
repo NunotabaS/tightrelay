@@ -1,0 +1,25 @@
+module.exports = {
+	'remote':[
+		{
+			'protocol':'variance',
+			'server':'127.0.0.1',
+			'port':80,
+			'path':'/',
+			'encryption':'none'
+		},
+		{
+			'protocol':'zettairyouiki',
+			'server':'',
+			'port':80,
+			'mask':'/',
+			'method':'none'
+		},
+	],
+	'local':{
+		'host':'127.0.0.1',
+		'port':3001,
+	},
+	'balance':{
+		'mode':'round-robin',
+	}
+}
